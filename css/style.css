@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #5060ad;
+}
+
+.navbar-brand, .nav-link {
+    color: white;
+}
+
+.content {
+    text-align: center;
+}
+
+.content-title {
+    font-family: OpenSans;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #000000;
+  }
