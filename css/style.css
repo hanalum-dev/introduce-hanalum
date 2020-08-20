@@ -5,7 +5,12 @@
     font-style: normal;
 }
 
-p,span {
+body {
+    font-size: 3%;
+}
+
+a, p,span {
+    font-size: 1rem;
     font-family: SDKukdetopokki-Lt;
 }
 
@@ -29,7 +34,7 @@ a:hover {
 
 .content-title {
     font-family: SDKukdetopokki-Lt;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -55,5 +60,5 @@ footer {
 }
 
 #contact {
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
 }
