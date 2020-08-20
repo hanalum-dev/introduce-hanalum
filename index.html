@@ -183,10 +183,39 @@
         <h3 class="content-title" id = "contact-title">
             Contact
         </h3>
+
+        <div class="contact-container">
+            <div class="row" style="padding-left: 10%; padding-right:10%" >
+                <div class="col-4" onclick="sendEmail('mailto:hmhanalum@gmail.com')">
+                    <i class="fas fa-envelope" style="font-size: 8em; color: #44C3D2";></i>
+                    <p>
+                        Email
+                    </p>
+                </div>
+                <div class="col-4" onclick='openWindow("https://www.facebook.com/hmhanalum/")'>
+                    <i class="fab fa-facebook" style="font-size: 8em; color: #B5BAD3";></i>
+                    <p>
+                        Facebook
+                    </p>
+                </div>
+
+                <div class="col-4" onclick='openWindow("https://www.instagram.com/hm.hanalum/")'>
+                    <i class="fab fa-instagram" style="font-size: 8em; color: #5060AD";></i>
+                    <p>
+                        Instagram
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
+        <div>
+            <p>
+                Email: hmhanalum@gmail.com
+            </p>
 
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -200,6 +229,13 @@
         crossorigin="anonymous"></script>
 
     <script defer src="./fontawesome/js/all.js"></script>
+
+
+    <script>
+        function openWindow(url) {
+            window.open(url);
+        }
+    </script>
 </body>
 
 </html>
