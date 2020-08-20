@@ -1,5 +1,22 @@
+@font-face {
+    font-family: 'SDKukdetopokki-Lt';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p,span {
+    font-family: SDKukdetopokki-Lt;
+}
+
 .navbar {
+    font-family: SDKukdetopokki-Lt;
     background-color: #5060ad;
+}
+
+a:hover {
+    color: #000000 !important;
+    text-decoration: none;
 }
 
 .navbar-brand, .nav-link {
@@ -11,7 +28,7 @@
 }
 
 .content-title {
-    font-family: OpenSans;
+    font-family: SDKukdetopokki-Lt;
     font-size: 30px;
     font-weight: bold;
     font-stretch: normal;
@@ -21,3 +38,9 @@
     text-align: center;
     color: #000000;
   }
+
+.profile-img {
+    width: 80%;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
