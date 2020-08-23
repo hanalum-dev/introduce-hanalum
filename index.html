@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/main_icon.png" type="image/x-icon">
     
+    <script src="./js/includeHTML.js"></script>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg row">
         <div class="col-1"></div>
@@ -63,10 +63,26 @@
         </h3>
     </section>
 
-    <section class="content" id = "project">
+    <section class="content" id = "project" style="padding: 3% 10% 10% 10%;">
         <h3 class="content-title" id = "project-title">
             Project
         </h3>
+        <!-- <section class ="project-odd row">
+            <img src="./img/website.jpg" alt="" class = "align-text-middle project-img col-4">
+            <div class = "col-7">
+                <p>
+                    한아름 홈페이지
+                </p>
+                <p>
+                    한민고등학교 재학생과 졸업생이 모두 모여 소통할 수 있는 웹사이트 개발 프로젝트
+                </p>
+            </div>
+        </section>
+
+        <section class = "project-even">
+
+        </section> -->
+
     </section>
 
     <section class="content" id ="team">
@@ -166,7 +182,7 @@
                 </div>
                 
                 <div class="member-profile  col-4 col-md-3 col-sm-4">
-                    <img class = "profile-img" src="./img/profile/김신건.jpg" alt="">
+                    <img class = "profile-img" src="./img/profile/김신건.png" alt="">
                     <p class = "profile-name">
                         김신건
                     </p>
@@ -235,6 +251,10 @@
         function openWindow(url) {
             window.open(url);
         }
+    </script>
+        
+    <script>
+        includeHTML();
     </script>
 </body>
 

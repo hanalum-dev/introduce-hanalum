@@ -9,6 +9,11 @@ body {
     font-size: 3%;
 }
 
+
+.project-img {
+    width : 90%;
+}
+
 a, p,span {
     font-size: 1rem;
     font-family: SDKukdetopokki-Lt;
@@ -61,4 +66,13 @@ footer {
 
 #contact {
     margin-bottom: 3rem;
+}
+
+
+#project {
+    background-color: #5C6F7D;
+}
+
+.project-image-box {
+    height: 15rem;
 }
